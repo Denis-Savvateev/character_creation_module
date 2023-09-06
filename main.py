@@ -87,18 +87,18 @@ def start_training(character):
     Принимает на вход имя и класс персонажа.
     Возвращает сообщения о результатах цикла тренировки персонажа.
     """
-    char_class_descr = {Warrior: 'ты Воитель — великий мастер ближнего боя.', 
-                        Mage: 'ты Маг — превосходный укротитель стихий.', 
-                        Healer: 'ты Лекарь — чародей, способный исцелять раны.'}
-    if character.__class__.__name__ in char_class_descr:
-        print(f'{character.name, } {char_class_descr[character.__class__.__name__]}')
+    #char_class_descr = {Warrior: 'ты Воитель — великий мастер ближнего боя.', 
+    #                    Mage: 'ты Маг — превосходный укротитель стихий.', 
+    #                    Healer: 'ты Лекарь — чародей, способный исцелять раны.'}
+    #if character.__class__.__name__ in char_class_descr:
+    #    print(f'{character.name, } {char_class_descr[character.__class__.__name__]}')
 
-    #if char_class == 'warrior':
-    #    print(f'{char_name}, ты Воитель — великий мастер ближнего боя.')
-    #if char_class == 'mage':
-    #    print(f'{char_name}, ты Маг — превосходный укротитель стихий.')
-    #if char_class == 'healer':
-    #    print(f'{char_name}, ты Лекарь — чародей, способный исцелять раны.')
+    #if character.__class__.__name__ == 'Warrior':
+    #    print(f'{character.name}, ты Воитель — великий мастер ближнего боя.')
+    #if character.__class__.__name__ == 'Mage':
+    #    print(f'{character.name}, ты Маг — превосходный укротитель стихий.')
+    #if character.__class__.__name__ == 'Healer':
+    #    print(f'{character.name}, ты Лекарь — чародей, способный исцелять раны.')
 
     print('Потренируйся управлять своими навыками.')
     print('Введи одну из команд: attack — чтобы атаковать противника, '
